@@ -12,14 +12,6 @@ export default function ResponsiveNavBar() {
         </div>
 
         <ul className="flex space-x-6">
-          <li>
-            <Link
-              href="/about"
-              className="hover:text-gray-300 transition-colors duration-300"
-            >
-              About
-            </Link>
-          </li>
 
           {/* Scroll to contact section on the same page */}
           <li>
